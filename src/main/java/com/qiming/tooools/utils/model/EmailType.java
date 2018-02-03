@@ -7,4 +7,5 @@ package com.qiming.tooools.utils.model;
  * @Date: 2018-02-03-22:29
  */
 public enum EmailType {
+
 }
