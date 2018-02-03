@@ -1,6 +1,5 @@
-package com.qiming.tooools.utils.model;
+package com.qiming.tooools.model;
 
-import java.util.List;
 import java.util.Map;
 
 /**

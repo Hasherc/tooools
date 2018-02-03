@@ -1,9 +1,8 @@
 package com.qiming.tooools.utils;
 
 
-import com.qiming.tooools.utils.model.Email;
-import com.qiming.tooools.utils.model.Event;
-import com.sun.istack.internal.NotNull;
+import com.qiming.tooools.model.Email;
+import com.qiming.tooools.model.Event;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

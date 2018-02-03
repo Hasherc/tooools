@@ -1,4 +1,4 @@
-package com.qiming.tooools.utils.model;
+package com.qiming.tooools.model;
 
 import javafx.event.EventType;
 
