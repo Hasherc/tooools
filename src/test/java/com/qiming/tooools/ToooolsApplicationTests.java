@@ -10,7 +10,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -27,11 +30,7 @@ public class ToooolsApplicationTests {
 		email.setSubject("测试1");
 		email.setTemplateName("dailyNotify");
 		email.setModel(new HashMap<>());
-		Event event = new Event();
-		HashMap<String, Object> map = new HashMap<>();
-		map.put("email", email);
-		event.setEventProperties(map);
-		emailSender.sendEmail(event);
+		emailSender.sendEmail(email);
 
 	}
 

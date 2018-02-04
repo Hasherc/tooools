@@ -58,9 +58,8 @@ public class EmailSender {
 
 
 
-    public void sendEmail(Event event){
-        Map<String, Object> map = event.getEventProperties();
-        Email email = (Email) map.get("email");
+    public void sendEmail(Email email){
+
         try {
             HtmlEmail htmlEmail = new HtmlEmail();
             htmlEmail.setSubject(email.getSubject());
